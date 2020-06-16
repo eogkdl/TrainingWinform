@@ -35,44 +35,43 @@
             // 
             // BtnMessage
             // 
-            this.BtnMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.BtnMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMessage.Location = new System.Drawing.Point(592, 411);
+            this.BtnMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BtnMessage.Font = new System.Drawing.Font("나눔고딕코딩", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnMessage.Location = new System.Drawing.Point(383, 335);
             this.BtnMessage.Name = "BtnMessage";
-            this.BtnMessage.Size = new System.Drawing.Size(228, 75);
+            this.BtnMessage.Size = new System.Drawing.Size(179, 48);
             this.BtnMessage.TabIndex = 0;
-            this.BtnMessage.Text = "현재 시간";
+            this.BtnMessage.Text = "현재시간";
             this.BtnMessage.UseVisualStyleBackColor = false;
             this.BtnMessage.Click += new System.EventHandler(this.BtnMessage_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 29);
+            this.label1.Location = new System.Drawing.Point(14, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 15);
+            this.label1.Size = new System.Drawing.Size(77, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "현재 시간 :";
+            this.label1.Text = "현재시간 :";
             // 
             // TxtCurrentDate
             // 
-            this.TxtCurrentDate.Location = new System.Drawing.Point(112, 26);
+            this.TxtCurrentDate.Location = new System.Drawing.Point(97, 34);
             this.TxtCurrentDate.Name = "TxtCurrentDate";
-            this.TxtCurrentDate.Size = new System.Drawing.Size(256, 25);
+            this.TxtCurrentDate.Size = new System.Drawing.Size(236, 25);
             this.TxtCurrentDate.TabIndex = 2;
-            this.TxtCurrentDate.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 513);
+            this.ClientSize = new System.Drawing.Size(574, 395);
             this.Controls.Add(this.TxtCurrentDate);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnMessage);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NameWindow";
+            this.Text = "MainWindow";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

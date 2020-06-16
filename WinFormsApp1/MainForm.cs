@@ -25,13 +25,8 @@ namespace WinFormsApp1
         private void BtnMessage_Click(object sender, EventArgs e)
         {
             DateTime now = DateTime.Now;
-            //MessageBox.Show($"Hell world! {now}");
+            //  MessageBox.Show($"Hell World! {now}");
             TxtCurrentDate.Text = now.ToString();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
